@@ -1,0 +1,97 @@
+* {
+    font-family: 'Chewy', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #523634;
+    font-size: 1.5em;
+    color: #DDC5A2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.bg-dark {
+    background-color: #301B28 !important;
+}
+
+.header {
+    color: #B6452C;
+}
+
+.header h2 {
+    font-size: 2.3rem;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.btn {
+    padding: 7px 21px;
+    border-radius: 21px;
+    border: none;
+    font-size: 1.3rem;
+    background-color: #DDC5A2;
+    color: black;
+}
+
+.btn span:hover {
+    background-color: aqua;
+}
+
+.btn-logout {
+    background-color: #B6452C;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #301B28 !important;
+    color: #DDC5A2;
+    box-shadow: none;
+}
+
+.btn-logout:hover,
+.btn-logout:active {
+    background-color: #DDC5A2 !important;
+    color: #301B28;
+}
+
+.auth-page,
+.costs-page {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+input.form-control {
+    background-color: #DDC5A2;
+    padding: 0 15px;
+    border-radius: 21px;
+    color: black;
+}
+
+input.form-control:focus {
+    background-color: #301B28;
+    box-shadow: none;
+    color: #DDC5A2;
+}
+
+.auth-link {
+    color: #B6452C;
+}
+
+.auth-link:hover {
+    color: #301B28;
+}
+
+/* .list-group {
+    border: 3px dashed #301B28;
+} */
+
+.cost-item {
+    background-color: #523634;
+    border: 3px dashed #301B28;
+}

@@ -1,0 +1,5 @@
+@media (max-width: 337px) {
+    select {
+        margin-bottom: 5px;
+    }
+}

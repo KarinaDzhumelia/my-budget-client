@@ -1,0 +1,28 @@
+.form {
+    align-items: flex-end;
+}
+
+.form-item {
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+.add-btn {
+    position: relative;
+    min-width: 96px;
+    height: 38px;
+    align-self: flex-end;
+}
+
+@media (max-width: 773px) {
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
