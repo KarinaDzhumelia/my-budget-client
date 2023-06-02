@@ -95,3 +95,9 @@ input.form-control:focus {
     background-color: #523634;
     border: 3px dashed #301B28;
 }
+
+@media (max-width: 773px) {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
